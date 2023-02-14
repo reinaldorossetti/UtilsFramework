@@ -1,4 +1,4 @@
-package aesencrypt
+package utils.aesencrypt
 
 import javax.crypto.Cipher
 import javax.crypto.KeyGenerator

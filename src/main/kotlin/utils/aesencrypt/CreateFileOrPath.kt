@@ -1,4 +1,4 @@
-package aesencrypt
+package utils.aesencrypt
 
 import java.io.File
 import java.time.Instant
@@ -37,7 +37,7 @@ class CreateFileOrPath {
 
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println("Teste de criptografia AES!")
     val teste = CreateFileOrPath()
     teste.createPath("ReinaldoTest")
